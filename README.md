@@ -5,7 +5,7 @@ Repositório relacionado ao projeto do módulo 3 do curso de análise de dados d
 width="500px"/>
 </div>
 
-# <div> Sejam bem vindos ao IRTE </div>
+# <div> Sejam bem vindos ao projeto ***</div>
 
 ## Conteúdos 📄
 - Descrição do Projeto 📝
