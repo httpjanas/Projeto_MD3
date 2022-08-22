@@ -11,18 +11,18 @@ width="500px"/>
 - Descrição do Projeto 📝
 - Status do Projeto :hourglass_flowing_sand:
 - Colocando em Funcionamento 💻
-- Ferramentas Utilizadas 🔧
+- Ferramentas Utilizadas :toolbox:
 - Desenvolvedores :woman_technologist::woman_technologist::woman_technologist::man_technologist:
 
 ## Descrição do Projeto 📝
 Projeto de construção de um banco de dados paragerenciamento da estrutura de ensino da empresa para modernizar o processo de
 armazenamento de dados.
 
-Este projeto foi elaborado por estudantes da Instituição [Resilia](https://www.resilia.work/), em colaboração dos facilitadores Esli Queiroz (Soft) e Dayson Nascimento (Tech). Deixamos aqui nossos profundos e sinceros agradecimentos por essa etapa concluída de final de primeiro módulo.
+Este projeto foi elaborado por estudantes da Instituição [Resilia](https://www.resilia.work/), em colaboração dos facilitadores Esli Queiroz (Soft) e Rafael Pilan (Tech). Deixamos aqui nossos profundos e sinceros agradecimentos por essa etapa concluída de final do terceiro módulo.
 
 ## Status do Projeto :hourglass_flowing_sand: 
 
-<div><h4 align = "center"> TítuloDaPesquisa ✔️</h4></div>
+<div><h4 align = "center"> Em andamento :hourglass_flowing_sand: </h4></div>
 
 
 ## Colocando em Funcionamento 💻
@@ -60,12 +60,14 @@ Recursos utilizados:
 </div>
 <hr>
 
-## Ferramentas Utilizadas 🔧
+## Ferramentas Utilizadas :toolbox:
 As seguintes ferramentas foram utilizadas na construção do projeto: 
+- [![PostgreSQL](https://img.shields.io/twitter/url?label=PostgreSQL&logo=PostgreSQL&style=social&url=https%3A%2F%2Fpostgresql.com)](https://www.postgresql.org)
+- [![PgAdmin](https://img.shields.io/twitter/url?label=PgAdmin&logo=PgAdmin&style=social&url=https%3A%2F%2Fpgadmin.com)](https://www.pgadmin.org)
 - [![GitHub](https://img.shields.io/twitter/url?label=GitHub&logo=Github&style=social&url=https%3A%2F%2Fimg.shields.io%2Fendpoint%3Flabel%3DGitHub%26logo%3DGitHub%26style%3Dsocial%26url%3Dhttps%253A%252F%252Fi.pinimg.com%252F564x%252Fef%252Fff%252F7d%252Fefff7d5cb146fb3ca0f62b87bd641e4d.jpg)](https://github.com)
 - [![Discord](https://img.shields.io/twitter/url?label=Discord&logo=Discord&style=social&url=https%3A%2F%2Fdiscord.com)](https://discord.com)
 - [![WhatsApp](https://img.shields.io/twitter/url?label=WhatsApp&logo=WhatsApp&style=social&url=https%3A%2F%2Fwww.whatsapp.com)](https://www.whatsapp.com)
-- [![Trello](https://img.shields.io/twitter/url?logo=Trello&style=social&url=https%3A%2F%2Ftrello.com%2Fpt-BR)](https://trello.com/pt-BR)
+- [![Trello](https://img.shields.io/twitter/url?label=Trello&logo=Trello&style=social&url=https%3A%2F%2Fwww.trello.com)](https://trello.com)
 
 ## Desenvolvedores :woman_technologist::woman_technologist::woman_technologist::man_technologist:
 Abaixo você pode se conectar e conhecer melhor os idealizadores e desenvolvedores do projeto:
