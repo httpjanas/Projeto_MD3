@@ -38,12 +38,22 @@ Recursos utilizados:
 ### Passos a serem feitos para rodar o programa:
 ``` PgAdmin
     # Fazer o clone
-    # git clone <https://github.com/httpjanas/Projeto_MD3.git>
-    # Abrir o arquivo "Tables.sql" em seu programa de preferência que suporte banco de dados postgres:
-    # Selecione da linha 3 a linha 90 e rode o código.
-    # Em seguida importe no banco de dados criado as tabelas da pasta "dados das tabelas" presente nesse repositório na ordem abaixo:
-    # departamentos, cursos, forma_de_pagamento, modulos, area, facilitadores, turma, alunos. 
-    # Seleciome os selects que deseja utilizar e rode o código.
+        # git clone <https://github.com/httpjanas/Projeto_MD3.git>
+    # Abrir o arquivo "Tables.sql" em seu programa de preferência que suporte banco de dados postgres;
+    
+    # Selecione da linha 3 a linha 90 e rode o código, criando assim o banco de dados desejado;
+    
+    # Em seguida importe no banco de dados criado as tabelas da pasta "Dados das tabelas" presente nesse repositório, na ordem abaixo:
+        - departamentos 
+        - cursos 
+        - forma_de_pagamento 
+        - modulos 
+        - area 
+        - facilitadores 
+        - turma 
+        - alunos. 
+        
+    # Seleciome os selects que deseja visualizar e rode o código.
 
 ```
 <b>Modelos criados:<b>
