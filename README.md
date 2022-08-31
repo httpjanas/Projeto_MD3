@@ -14,7 +14,7 @@ Repositório relacionado ao projeto do módulo 3 do curso de análise de dados d
 - Desenvolvedores :woman_technologist::woman_technologist::woman_technologist::man_technologist:
 
 ## Descrição do Projeto 📝
-Projeto de construção de um banco de dados paragerenciamento da estrutura de ensino da empresa para modernizar o processo de
+Projeto de construção de um banco de dados para gerenciamento da estrutura de ensino da empresa para modernizar o processo de
 armazenamento de dados.
 
 Este projeto foi elaborado por estudantes da Instituição [Resilia](https://www.resilia.work/), em colaboração dos facilitadores Esli Queiroz (Soft) e Rafael Pilan (Tech). Deixamos aqui nossos profundos e sinceros agradecimentos por essa etapa concluída de final do terceiro módulo.
@@ -41,7 +41,7 @@ Recursos utilizados:
     # git clone <https://github.com/httpjanas/Projeto_MD3.git>
     # Para abrir o arquivo:
     # ***:
-        # Abrir o progarama...
+        # Abrir o programa...
         # Ir na *** e depois na opção "Abrir arquivo"
         # Ir no diretório de onde baixou a pasta do arquivo. 
         # Selecionar o arquivo "***" e clicar em abrir.
@@ -54,11 +54,7 @@ Recursos utilizados:
 </div>
 <h3><li> Modelo Lógico </li></h3>
 <div align ='center'>
-<a href="https://imgur.com/xsdVRC6"><img src="https://i.imgur.com/xsdVRC6.png" title="source: imgur.com" />
-</div>
-<h3><li> Tabela Criada 📋 </li></h3>
-<div align ='center'>
-<img src = ** width='900px' />
+<a href="https://imgur.com/Amon12X"><img src="https://i.imgur.com/Amon12X.png" title="source: imgur.com" /></a>
 </div>
 <hr>
 
