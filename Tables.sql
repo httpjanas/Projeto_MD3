@@ -88,3 +88,62 @@ ALTER TABLE "tb_facilitadores" ADD FOREIGN KEY ("id_departamento") REFERENCES "t
 ALTER TABLE "tb_turma" ADD FOREIGN KEY ("cpf_facilitador_soft") REFERENCES "tb_facilitadores" ("cpf");
 
 ALTER TABLE "tb_turma" ADD FOREIGN KEY ("cpf_facilitador_tech") REFERENCES "tb_facilitadores" ("cpf");
+
+/* Visualizando as tabelas */
+
+select * from tb_alunos 
+select * from tb_area
+select * from tb_cursos 
+select * from tb_departamentos
+select * from tb_facilitadores 
+select * from tb_forma_de_pagamento
+select * from tb_modulos 
+select * from tb_turma
+
+/* Select */
+
+-- Selecionar a quantidade total de estudantes cadastrados no banco:
+
+select count(cpf) as "Quantidade total de alunos: " from tb_alunos
+
+-- Selecionar todos os estudantes com os respectivos cursos que eles estão cadastrados:
+
+select tb_alunos.nome as "Nome: ", tb_cursos.nome as "Curso: " from tb_alunos
+inner join tb_cursos on tb_alunos.id_curso = tb_cursos.id
+
+-- Selecionar quais pessoas facilitadoras atuam em mais de uma turma:
+
+select tb_facilitadores.nome as "Nome: ", tb_area.nome as "Área: ", count(tb_turma.cpf_facilitador_soft) 
+as "Quantidade: " from tb_facilitadores
+inner join tb_area on tb_facilitadores.id_area = tb_area.id
+inner join tb_turma on tb_facilitadores.cpf = tb_turma.cpf_facilitador_soft
+group by tb_facilitadores.cpf, tb_area.id, tb_area.nome
+order by count(tb_turma.cpf_facilitador_soft) desc
+limit 1
+
+-- Selecionar quais pessoas facilitadoras atuam em mais de uma turma:
+
+select tb_facilitadores.nome as "Nome: ", tb_area.nome as "Área: ", count(tb_turma.cpf_facilitador_tech) 
+as "Quantidade: " from tb_facilitadores
+inner join tb_area on tb_facilitadores.id_area = tb_area.id
+inner join tb_turma on tb_facilitadores.cpf = tb_turma.cpf_facilitador_tech
+group by tb_facilitadores.cpf, tb_area.id, tb_area.nome
+order by count(tb_turma.cpf_facilitador_tech) desc
+limit 1
+
+-- Quantos alunos dos cursos 1 e 2 realizam o pagamento durante e quantos realizam o pagamentos após o curso:
+
+select tb_forma_de_pagamento.nome as "Forma de pagamento: ", count(tb_alunos.cpf) 
+as "Quantidade de alunos pela forma de pagamento: " from tb_alunos
+inner join tb_forma_de_pagamento on tb_forma_de_pagamento.id = tb_alunos.id_forma_de_pagamento
+group by tb_forma_de_pagamento.nome
+order by tb_forma_de_pagamento.nome
+
+
+-- Quantos alunos do curso 1 (Analise de Dados) realizam o pagamento durante e quantos realizam o pagamentos após o curso:
+
+select tb_forma_de_pagamento.nome as "Forma de pagamento: ", count(tb_alunos.cpf) 
+as "Quantidade de alunos pela forma de pagamento: " from tb_alunos
+inner join tb_forma_de_pagamento on tb_forma_de_pagamento.id = tb_alunos.id_forma_de_pagamento
+where tb_alunos.id_curso = 1
+group by tb_forma_de_pagamento.nome
