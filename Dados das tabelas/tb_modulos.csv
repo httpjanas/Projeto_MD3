@@ -1,0 +1,12 @@
+id,nome,id_curso,descricao
+30,Módulo 1,1,Organização do código;Estrutura de repetição; desvio condicional; Python; Git/Github.
+31,Módulo 2,1,Organização do código; Utilização de funções; Orientação a objetos; Python; Git/Github.
+32,Módulo 3,1,Entidades e atributos; Modelagem de dados;SQL;Apresentação dos resultados;Git/Github.
+33,Módulo 4,1,Jupyter Notebook ou Colab;Análise exploratória dos dados e análise dos resultados;Apresentação de análise;Git/Github.
+34,Módulo 5,1,Storytelling;Visualização de dados;Análise exploratória dos dados e análise dos resultados; Apresentação dos resultados;Git/Github.
+35,Módulo 1,2,Padrão MVC;Documentação;Páginas solicitadas;Organização e estrutura para conexão com backend;Github.
+36,Módulo 2,2,Organização do código;Javascript;CSS;Estrutura de páginas; Git/Gihub.
+37,Módulo 3,2,Modelagem do banco de dados; Visualização de dados; Consultas; Brainstorming e Análise Exploratória; Github.
+38,Módulo 4,2,NodeJs/Express;Padrão MVC;Funcionalidade da API;Documentação;Github.
+39,Módulo 5,2,Padrão MVC; Documentação; Páginas solicitadas;Organização e estrutura para conexão com backend;Github.
+40,Módulo 6,2,Reforço dos conteúdos apresentados até então e apresentação/projeto final.
