@@ -147,3 +147,26 @@ as "Quantidade de alunos pela forma de pagamento: " from tb_alunos
 inner join tb_forma_de_pagamento on tb_forma_de_pagamento.id = tb_alunos.id_forma_de_pagamento
 where tb_alunos.id_curso = 1
 group by tb_forma_de_pagamento.nome
+
+-- Quantos alunos do curso 2 (Desenvolvimento Web) realizam o pagamento durante e quantos realizam o pagamentos após o curso:
+
+select tb_forma_de_pagamento.nome as "Forma de pagamento: ", count(tb_alunos.cpf) 
+as "Quantidade de alunos pela forma de pagamento: " from tb_alunos
+inner join tb_forma_de_pagamento on tb_forma_de_pagamento.id = tb_alunos.id_forma_de_pagamento
+where tb_alunos.id_curso = 2
+group by tb_forma_de_pagamento.nome
+
+-- Qual a formação dos facilitadores e quantos são formados em cada formação:
+
+select tb_area.nome as "Área: ", tb_facilitadores.formacao as "Formação: ", count(tb_facilitadores.formacao) 
+as "Quantidade: " from tb_facilitadores
+inner join tb_area on tb_facilitadores.id_area = tb_area.id
+group by tb_facilitadores.formacao, tb_area.nome
+order by count(tb_facilitadores.formacao) desc
+
+-- A qual estado pertence a maior quantidade de alunos:
+
+select estado as "Estados: ", count(estado) from tb_alunos
+group by "Estados: "
+order by count desc
+limit 1
