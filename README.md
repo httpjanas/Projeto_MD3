@@ -1,15 +1,14 @@
 # Projeto_MD3
 Repositório relacionado ao projeto do módulo 3 do curso de análise de dados da Resilia. 
 <div align="center">
-<img src = ""
-width="500px"/>
+<a href="https://imgur.com/nLSv2EB"><img src="https://i.imgur.com/nLSv2EB.png" title="source: imgur.com" /></a>
 </div>
 
-# <div> Sejam bem vindos ao projeto ***</div>
+# <div> Sejam bem vindos ao projeto de módulo 3 do Team Puzzle</div>
 
 ## Conteúdos 📄
 - Descrição do Projeto 📝
-- Status do Projeto :hourglass_flowing_sand:
+- Status do Projeto :white_check_mark:
 - Colocando em Funcionamento 💻
 - Ferramentas Utilizadas :toolbox:
 - Desenvolvedores :woman_technologist::woman_technologist::woman_technologist::man_technologist:
@@ -20,9 +19,9 @@ armazenamento de dados.
 
 Este projeto foi elaborado por estudantes da Instituição [Resilia](https://www.resilia.work/), em colaboração dos facilitadores Esli Queiroz (Soft) e Rafael Pilan (Tech). Deixamos aqui nossos profundos e sinceros agradecimentos por essa etapa concluída de final do terceiro módulo.
 
-## Status do Projeto :hourglass_flowing_sand: 
+## Status do Projeto :white_check_mark: 
 
-<div><h4 align = "center"> Em andamento :hourglass_flowing_sand: </h4></div>
+<div><h4 align = "center"> Concluído :white_check_mark: </h4></div>
 
 
 ## Colocando em Funcionamento 💻
@@ -48,12 +47,15 @@ Recursos utilizados:
         # Selecionar o arquivo "***" e clicar em abrir.
     
 ```
-<b>Funciona da seguinte maneira:<b>
-<h3><li> Fluxograma </li></h3>
+<b>Modelos criados:<b>
+<h3><li> Modelo Conceitual </li></h3>
 <div align ='center'>
-<img src = ** width='900px' />
+<a href="https://imgur.com/xsdVRC6"><img src="https://i.imgur.com/xsdVRC6.png" title="source: imgur.com" />
 </div>
-
+<h3><li> Modelo Lógico </li></h3>
+<div align ='center'>
+<a href="https://imgur.com/xsdVRC6"><img src="https://i.imgur.com/xsdVRC6.png" title="source: imgur.com" />
+</div>
 <h3><li> Tabela Criada 📋 </li></h3>
 <div align ='center'>
 <img src = ** width='900px' />
